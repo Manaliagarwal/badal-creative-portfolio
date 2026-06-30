@@ -153,15 +153,6 @@ python -m http.server 8000
 
 ---
 
-## 📊 Portfolio Stats
-
-- 500+ Videos Edited
-- 100+ Happy Clients
-- 5+ Years Experience
-- 50+ Podcasts Produced
-- 10M+ Social Media Views
-
----
 
 ## 🎨 Design System
 
