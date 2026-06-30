@@ -122,7 +122,6 @@ View my Figma prototype: [Figma Design](https://www.figma.com/proto/0RToSeiITEzd
 
 - **Instagram**: [@mkvisualls](https://www.instagram.com/mkvisualls) | [@cloudxfit](https://www.instagram.com/cloudxfit)
 - **LinkedIn**: [Badal Agarwal](https://www.linkedin.com/in/badal-agarwal-88731a245/)
-- **Canva**: [Portfolio](https://badalagrawal.my.canva.site/badal09/)
 
 ---
 
