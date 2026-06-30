@@ -73,7 +73,7 @@ badal-creative-portfolio/
 │   └── main.js         # Interactive features
 │
 └── assets/
-    ├── BadalResumepdf.pdf   # Resume
+    ├── BadalResume.pdf   # Resume
     └── images/
         └── BadalPicture.jpeg    # Profile photo
 ```
