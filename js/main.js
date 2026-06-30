@@ -493,6 +493,97 @@ function initCustomCursor() {
 // }
 
 // ===================================
+// PROJECT FILTER FUNCTIONALITY
+// ===================================
+document.addEventListener('DOMContentLoaded', () => {
+  const filterButtons = document.querySelectorAll('.filter-btn');
+  const projectSections = document.querySelectorAll('.section[data-category]');
+
+  if (filterButtons.length > 0 && projectSections.length > 0) {
+    filterButtons.forEach(button => {
+      button.addEventListener('click', () => {
+        const filter = button.dataset.filter;
+
+        // Update active button
+        filterButtons.forEach(btn => btn.classList.remove('active'));
+        button.classList.add('active');
+
+        // Filter projects with smooth animation
+        projectSections.forEach(section => {
+          const category = section.dataset.category;
+
+          if (filter === 'all' || filter === category) {
+            // Show section with fade-in animation
+            section.style.display = 'block';
+            setTimeout(() => {
+              section.style.opacity = '1';
+              section.style.transform = 'translateY(0)';
+            }, 10);
+          } else {
+            // Hide section with fade-out animation
+            section.style.opacity = '0';
+            section.style.transform = 'translateY(20px)';
+            setTimeout(() => {
+              section.style.display = 'none';
+            }, 300);
+          }
+        });
+
+        // Scroll to projects section smoothly
+        const firstVisibleSection = document.querySelector('.section[data-category]');
+        if (firstVisibleSection && filter !== 'all') {
+          setTimeout(() => {
+            firstVisibleSection.scrollIntoView({
+              behavior: 'smooth',
+              block: 'start'
+            });
+          }, 100);
+        }
+      });
+    });
+  }
+});
+
+// ===================================
+// VIDEO AUTOPLAY ON HOVER (Optional Enhancement)
+// ===================================
+document.addEventListener('DOMContentLoaded', () => {
+  const projectVideos = document.querySelectorAll('.project-media video');
+
+  projectVideos.forEach(video => {
+    const projectCard = video.closest('.project-card');
+
+    if (projectCard) {
+      // Pause video initially
+      video.pause();
+
+      // Play preview on hover
+      projectCard.addEventListener('mouseenter', () => {
+        if (!video.playing) {
+          video.play().catch(err => {
+            // Handle autoplay restrictions
+            console.log('Video autoplay prevented:', err);
+          });
+        }
+      });
+
+      // Pause on leave
+      projectCard.addEventListener('mouseleave', () => {
+        video.pause();
+        video.currentTime = 0;
+      });
+    }
+  });
+});
+
+// Helper to check if video is playing
+Object.defineProperty(HTMLMediaElement.prototype, 'playing', {
+  get: function() {
+    return !!(this.currentTime > 0 && !this.paused && !this.ended && this.readyState > 2);
+  }
+});
+
+// ===================================
 // CONSOLE WELCOME MESSAGE
 // ===================================
 console.log('%c👋 Welcome to Badal\'s Portfolio!', 'color: #8b5cf6; font-size: 20px; font-weight: bold;');

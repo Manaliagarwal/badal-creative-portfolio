@@ -75,7 +75,7 @@ badal-creative-portfolio/
 └── assets/
     ├── BadalResumepdf.pdf   # Resume
     └── images/
-        └── Badal.jpeg       # Profile photo
+        └── BadalPicture.jpeg    # Profile photo
 ```
 
 ---

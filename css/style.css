@@ -12,6 +12,7 @@
   --accent-blue: #3b82f6;
   --accent-cyan: #06b6d4;
   --accent-green: #10b981;
+  --accent-red: #ef4444;
   --text-primary: #ffffff;
   --text-secondary: #94a3b8;
   --text-muted: #64748b;
@@ -609,6 +610,173 @@ nav a.active::after {
 }
 
 /* =====================================
+   PROJECT FILTERS
+   ===================================== */
+.project-filters {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.filter-btn {
+  padding: 12px 24px;
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  color: var(--text-secondary);
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: var(--transition);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: inherit;
+}
+
+.filter-btn:hover {
+  border-color: var(--accent-purple);
+  color: var(--text-primary);
+  background: rgba(139, 92, 246, 0.1);
+  transform: translateY(-2px);
+}
+
+.filter-btn.active {
+  background: linear-gradient(135deg, var(--accent-purple), var(--accent-blue));
+  color: var(--text-primary);
+  border-color: transparent;
+  box-shadow: 0 4px 15px rgba(139, 92, 246, 0.4);
+}
+
+.filter-btn i {
+  font-size: 18px;
+}
+
+/* =====================================
+   PROJECT MEDIA (VIDEO)
+   ===================================== */
+.project-media {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  background: #000;
+  border-radius: 16px 16px 0 0;
+  aspect-ratio: 16 / 9;
+}
+
+.project-media video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.5s ease;
+}
+
+.project-card:hover .project-media video {
+  transform: scale(1.05);
+}
+
+.project-overlay {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  z-index: 2;
+  display: flex;
+  gap: 10px;
+}
+
+.project-tag {
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 600;
+  color: white;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.project-tag i {
+  font-size: 14px;
+}
+
+/* =====================================
+   PROJECT META & TECH STACK
+   ===================================== */
+.project-meta {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid var(--border-color);
+}
+
+.tech-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 15px;
+}
+
+.tech-badge {
+  padding: 6px 12px;
+  background: rgba(139, 92, 246, 0.1);
+  border: 1px solid rgba(139, 92, 246, 0.3);
+  border-radius: 8px;
+  font-size: 12px;
+  color: var(--accent-purple);
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: var(--transition);
+}
+
+.tech-badge:hover {
+  background: rgba(139, 92, 246, 0.2);
+  border-color: var(--accent-purple);
+  transform: translateY(-2px);
+}
+
+.tech-badge i {
+  font-size: 12px;
+}
+
+.project-stats {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  font-size: 13px;
+  color: var(--text-muted);
+}
+
+.project-stats span {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.project-stats i {
+  color: var(--accent-cyan);
+  font-size: 14px;
+}
+
+/* =====================================
+   PROJECT CATEGORY FILTERING
+   ===================================== */
+.section[data-category] {
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.section[data-category].hidden {
+  display: none;
+}
+
+/* =====================================
    TIMELINE
    ===================================== */
 .timeline {
@@ -1061,6 +1229,67 @@ footer {
   .btn, .btn-outline {
     width: 100%;
     text-align: center;
+  }
+
+  /* Project-specific mobile styles */
+  .project-filters {
+    gap: 10px;
+  }
+
+  .filter-btn {
+    padding: 10px 16px;
+    font-size: 14px;
+  }
+
+  .filter-btn i {
+    font-size: 16px;
+  }
+
+  .project-card {
+    margin-bottom: 20px;
+  }
+
+  .project-content {
+    padding: 20px;
+  }
+
+  .project-content h3 {
+    font-size: 18px;
+  }
+
+  .project-content p {
+    font-size: 14px;
+  }
+
+  .tech-stack {
+    gap: 6px;
+  }
+
+  .tech-badge {
+    font-size: 11px;
+    padding: 5px 10px;
+  }
+
+  .project-stats {
+    font-size: 12px;
+    gap: 10px;
+  }
+
+  .project-tag {
+    padding: 6px 12px;
+    font-size: 12px;
+  }
+}
+
+/* Tablet-specific adjustments */
+@media (max-width: 768px) and (min-width: 641px) {
+  .project-filters {
+    max-width: 100%;
+  }
+
+  .filter-btn {
+    flex: 1;
+    justify-content: center;
   }
 }
 
