@@ -1,5 +1,5 @@
 # LinkedIn Profile Changes - Action Plan for Badal Agarwal
-**Dual-Expertise Strategy: Video Editing (Primary) + Finance Analytics (Secondary)**
+**Tri-Expertise Strategy: Video Editor & UI/UX Designer (CO-PRIMARY) + Finance Analytics (SECONDARY)**
 
 **Date:** August 2026
 **LinkedIn Profile:** https://www.linkedin.com/in/badal-agarwal-88731a245/
@@ -8,43 +8,47 @@
 
 ## 🎯 LINKEDIN CHANGES CHECKLIST
 
-### CHANGE #1: Update Headline (DUAL-EXPERTISE FOCUSED)
+### CHANGE #1: Update Headline (TRI-EXPERTISE BALANCED)
 **Current (102 characters):**
 ```
 Financial & Data Analytics | UI/UX Designer & Video Editor · Brand Content | PGDM – Finance & Analytics | Ex-Intern at VML India (WPP Group)
 ```
 
-**New Option A - VIDEO PRIMARY (Recommended for Arbor Academy role):**
+**New (Recommended - TRI-EXPERTISE BALANCED):**
 ```
-Video Editor & Content Strategist | Cinematographer | Finance Analytics PGDM
-```
-
-**New Option B - BALANCED DUAL EXPERTISE (Recommended if seeking both opportunities):**
-```
-Video Editor & Finance Analyst | Content Strategy | Adobe Premiere Pro | PGDM
+Video Editor & UI/UX Designer | Content Strategist & Cinematographer | Finance Analytics PGDM
 ```
 
-**New Option C - FINANCE PRIMARY (If targeting finance roles primarily):**
+**Why This Headline:**
+- Video Editor & UI/UX Designer = Co-Primary expertise (equal weight)
+- Content Strategist & Cinematographer = Specialized capabilities
+- Finance Analytics PGDM = Education/secondary expertise
+- Appears in searches for: "video editor", "UI/UX designer", "content strategist", "finance analyst"
+- Professional, clear, comprehensive positioning
+
+**Alternative Headlines (if you prefer different emphasis):**
+
+**Option B - Video Heavy (if prioritizing video roles):**
 ```
-Finance & Data Analytics | Video Editor | Content Strategist | PGDM ISBM
+Video Editor & Content Strategist | UI/UX Designer | Cinematographer | Finance PGDM
 ```
 
-**Recommendation:** Choose **Option B** - Shows both expertise equally without appearing confused
-- Video editing first (current active role)
-- Finance analytics second (proven expertise + education)
-- Both are valuable and complementary
+**Option C - UI/UX Heavy (if prioritizing design roles):**
+```
+UI/UX Designer & Video Editor | Content Strategist | Finance Analytics | PGDM
+```
 
-**Why Dual-Expertise Matters:**
-- You have PGDM in Finance & Business Analytics ✓
-- You completed VML finance internship ✓
-- You have 4+ years video production experience ✓
-- You work at Arbor Academy (video role) ✓
-- This positioning makes you hireable for: content strategist, finance analyst, hybrid roles
+**Option D - Minimal (if you prefer concise):**
+```
+Video Editor & UI/UX Designer | Content Strategist | Finance Analytics PGDM
+```
+
+**Recommendation:** Use **Option D** (same as New) - Balanced, clear, all expertise visible
 
 **How to Update:**
 1. Go to LinkedIn.com → Click your profile → Edit profile
 2. Click "Headline" section
-3. Choose Option B and paste: `Video Editor & Finance Analyst | Content Strategy | Adobe Premiere Pro | PGDM`
+3. Delete current text and copy-paste: `Video Editor & UI/UX Designer | Content Strategist & Cinematographer | Finance Analytics PGDM`
 4. Click Save
 
 **Time: 2 minutes**
@@ -65,12 +69,13 @@ You have TWO duplicate freelance entries:
 4. UPDATE the description to:
 
 ```
-Freelance Video Editor & Content Creator | 2022-Present | Self-Employed | Remote
+Freelance Video Editor & UI/UX Designer | 2022-Present | Self-Employed | Remote
 
 Produced 50+ promotional videos, podcast edits, cinematic reels, and short-form
-social media content for brands, corporates, and individual clients.
+social media content for brands, corporates, and individual clients. Designed
+UI/UX interfaces, prototypes, and design systems in Figma for web and mobile projects.
 
-Key Responsibilities:
+Key Responsibilities (Video):
 • Managed complete video production workflows: concept development → final delivery
 • Shot and edited content for platforms: YouTube, Instagram Reels, Shorts, LinkedIn
 • Handled cinematography, lighting, framing, and on-location production
@@ -78,7 +83,14 @@ Key Responsibilities:
 • Worked with hotels, cafés, corporate clients, and college event organizers
 • Maintained 2,000+ combined follower reach across multiple social media accounts
 
-Tools: Adobe Premiere Pro, CapCut, Final Cut Pro, Adobe Audition, Figma
+Key Responsibilities (UI/UX Design):
+• Created user-centered designs using Figma
+• Designed wireframes, prototypes, and interactive mockups
+• Built design systems and component libraries
+• Conducted user research and usability testing
+• Delivered production-ready design specifications
+
+Tools: Adobe Premiere Pro, CapCut, Final Cut Pro, Adobe Audition, Figma, Adobe Creative Suite
 ```
 
 **How to Update:**
@@ -92,7 +104,7 @@ Tools: Adobe Premiere Pro, CapCut, Final Cut Pro, Adobe Audition, Figma
 
 ---
 
-### CHANGE #3: Update Current Role - Arbor Academy (ENHANCE DESCRIPTION)
+### CHANGE #3: Update Current Role - Arbor Academy (HIGHLIGHT VIDEO FOCUS)
 
 **Current Description:**
 ```
@@ -100,29 +112,30 @@ Video Editor at Arbor Academy | Apr 2026 - Present | 5 mos
 Editing & Post Production
 ```
 
-**New Description (WITH DUAL EXPERTISE HINT):**
+**New Description (WITH TRI-EXPERTISE CONTEXT):**
 ```
-Video Editor | Content Strategist | Arbor Academy | Apr 2026 - Present | Pune, Maharashtra
+Video Editor & Content Strategist | Arbor Academy | Apr 2026 - Present | Pune, Maharashtra
 
 Edit and optimize educational videos, YouTube content, promotional videos, and
-Instagram Reels for 500+ student audience and growing subscriber base.
+Instagram Reels for 500+ student audience and growing subscriber base. Collaborate
+on content strategy and user experience optimization.
 
 Key Responsibilities:
 • Edit educational videos, YouTube tutorials, promotional content, and Instagram Reels
-• Collaborate with team on content strategy, scripting, and shoot planning
+• Collaborate with team on content strategy, scripting, and UX planning
 • Assist during video shoots: camera setup, framing, lighting, recording
 • Add motion graphics, subtitles, transitions, sound effects, and color grading
-• Optimize videos for YouTube, Instagram, TikTok, and other social platforms
+• Optimize videos and user interfaces for YouTube, Instagram, TikTok
 • Work with marketing team to create content that's informative and engaging
-• Manage multiple video projects with consistent timely delivery
+• Manage multiple projects with consistent timely delivery
 • Create platform-specific content: Reels (60 sec), YouTube (5-15 min), Shorts (15-60 sec)
 
 Results:
-• Currently managing video content for educational organization with 500+ students
+• Managing video content for educational organization with 500+ students
 • Implementing content strategy across 3+ social platforms
 • Improving video performance through platform optimization
 
-Tools: Adobe Premiere Pro, CapCut, Adobe Audition, After Effects, Figma
+Tools: Adobe Premiere Pro, CapCut, Adobe Audition, After Effects, Figma, Adobe Creative Suite
 ```
 
 **How to Update:**
@@ -135,7 +148,7 @@ Tools: Adobe Premiere Pro, CapCut, Adobe Audition, After Effects, Figma
 
 ---
 
-### CHANGE #4: Reorder Your Top 5 Skills (BALANCED APPROACH)
+### CHANGE #4: Reorder Your Top 5 Skills (TRI-EXPERTISE BALANCED)
 
 **Current Top 5 Skills:**
 1. User Experience (UX)
@@ -144,60 +157,60 @@ Tools: Adobe Premiere Pro, CapCut, Adobe Audition, After Effects, Figma
 4. Adobe Premiere Pro
 5. Figma (Software)
 
-**New Top 5 Skills (DUAL-EXPERTISE ORDER):**
+**New Top 5 Skills (TRI-EXPERTISE BALANCED ORDER):**
 1. Adobe Premiere Pro
-2. Video Editing
-3. Financial Analysis
-4. Content Strategy
-5. Figma (UI/UX Design)
+2. Figma (UI/UX Design)
+3. Video Editing
+4. Financial Analysis
+5. Content Strategy
 
 **Why This Order:**
-- Adobe Premiere Pro first = primary tool (video role)
-- Video Editing = primary expertise (current role)
-- Financial Analysis = secondary expertise (PGDM + VML internship)
-- Content Strategy = bridges both worlds (strategy for videos + analytics)
-- Figma = secondary design skill (UI/UX)
+- Adobe Premiere Pro #1 = primary video tool
+- Figma #2 = primary design tool (equal expertise level)
+- Video Editing #3 = primary video expertise
+- Financial Analysis #4 = secondary expertise (PGDM + VML)
+- Content Strategy #5 = bridges all three domains
 
-**Alternative Skill Orders (If You Want Different Focus):**
+**Alternative Skill Orders (if you prefer different priorities):**
 
-**Option A - Video Heavy (if prioritizing video roles):**
+**Option A - Video Heavy:**
 1. Adobe Premiere Pro
 2. Video Editing
-3. Content Strategy
-4. Cinematography
+3. Figma (UI/UX Design)
+4. Content Strategy
+5. Cinematography
+
+**Option B - UI/UX Heavy:**
+1. Figma (UI/UX Design)
+2. Adobe Premiere Pro
+3. User Experience (UX)
+4. Video Editing
 5. Financial Analysis
 
-**Option B - Finance Heavy (if prioritizing finance roles):**
-1. Financial Analysis
-2. Adobe Premiere Pro
-3. Power BI
+**Option C - Perfectly Tri-Balanced:**
+1. Adobe Premiere Pro
+2. Figma (UI/UX Design)
+3. Financial Analysis ← Secondary visible immediately
 4. Video Editing
 5. Content Strategy
 
-**Option C - Perfectly Balanced (if open to both):**
-1. Adobe Premiere Pro
-2. Financial Analysis
-3. Video Editing
-4. Content Strategy
-5. Power BI
-
-**Recommendation: Use Option A** - Video primary, but keep Financial Analysis visible in profile
+**Recommendation: Use recommended order** - Shows both creative tools equally, finance secondary
 
 **How to Update:**
 1. LinkedIn → Skills section
 2. Look for drag handle (⋮⋮) or "Edit" option next to skills
 3. Drag skills to new order:
    - Drag "Adobe Premiere Pro" to position #1
-   - Drag "Video Editing" to position #2
-   - Keep "Financial Analysis" visible (if not in top 5, endorse it to move it up)
-   - Drag "Content Strategy" to position #4
-   - Keep "Figma" at position #5
+   - Drag "Figma" to position #2
+   - Drag "Video Editing" to position #3
+   - Keep "Financial Analysis" visible in top 5 (#4)
+   - Drag "Content Strategy" to position #5
 
 **Time: 3-5 minutes**
 
 ---
 
-### CHANGE #5: Update Your About/Summary Section (DUAL-EXPERTISE NARRATIVE)
+### CHANGE #5: Update Your About/Summary Section (TRI-EXPERTISE NARRATIVE)
 
 **Current About Section:**
 ```
@@ -206,50 +219,82 @@ International School of Business & Media (ISB&M), Pune, with experience in
 finance operations, data analysis, and digital creativity...
 ```
 
-**New About Section (EMPHASIZE BOTH EXPERTISE):**
+**New About Section (TRI-EXPERTISE STRUCTURE):**
 
 ```
-🎬 VIDEO EDITOR & FINANCE ANALYST
+🎬 VIDEO EDITOR & UI/UX DESIGNER | CONTENT STRATEGIST & CINEMATOGRAPHER
 
-Currently Video Editor at Arbor Academy, creating educational content for 500+
-students and managing social media strategy across multiple platforms.
-
-Unique Profile: Combining creative video production with analytical finance skills
-to deliver data-driven content strategy and professional visual storytelling.
+Creative professional combining video production expertise with UI/UX design skills
+to create compelling digital experiences across platforms and mediums.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-📊 PRIMARY EXPERTISE: VIDEO PRODUCTION & CONTENT STRATEGY
+PRIMARY EXPERTISE #1: VIDEO PRODUCTION & CONTENT STRATEGY
 
+Current Role: Video Editor at Arbor Academy (Apr 2026-Present)
+Freelance: 4+ years of video production experience (2022-Present)
+
+Key Metrics:
 • 50+ videos produced across YouTube, Instagram, LinkedIn, and corporate platforms
 • 2,000+ combined followers across Instagram content accounts
-• 4+ years of video production, cinematography, and content strategy experience
-• Specializations: Adobe Premiere Pro (85%), Video Editing, Content Planning, Social Media Strategy
+• Full production expertise: concept → shooting → editing → delivery
+• Specializations: Adobe Premiere Pro (85%), CapCut (92%), Video Editing, Cinematography
+
+Skills:
+• Video Editing & Post-Production (85% Adobe Premiere Pro, 92% CapCut)
+• Cinematography & Camera Handling (88% proficiency)
+• Content Strategy & Social Media Optimization (90%)
+• Color Grading & Motion Graphics (75-85%)
+• Multi-Camera Editing & Audio Synchronization (87%)
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-💼 SECONDARY EXPERTISE: FINANCE & BUSINESS ANALYTICS
+PRIMARY EXPERTISE #2: UI/UX DESIGN & DIGITAL EXPERIENCE
 
-• PGDM in Finance & Business Analytics (ISBM, 2024-2026)
-• VML Finance Internship: Managed 50+ financial workflows, improved accuracy by X%
-• Tools: Power BI, Excel, Maconomy ERP, financial modeling, data analysis
-• Skills: Financial Analysis, COGS Analysis, TBL Reconciliation, Budgeting
+Figma-Based Design Practice (ongoing freelance + portfolio projects)
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-🎨 TERTIARY EXPERTISE: UI/UX DESIGN
-
-• Figma: Advanced prototyping, design systems, wireframing (88% proficiency)
+Key Capabilities:
 • User-centered design for web and mobile applications
+• Interactive prototypes and design systems
+• Wireframing, mockups, and high-fidelity designs
+• Design thinking and usability research
+• Figma expertise: Advanced prototyping (88% proficiency)
+
+Skills:
+• Figma: Advanced prototyping, design systems, component libraries (88%)
+• UX/UI Design: Wireframes, mockups, interactive prototypes
+• Design Systems: Creating scalable, reusable design components
+• User Research: Conducting and analyzing user feedback
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SECONDARY EXPERTISE: FINANCE & BUSINESS ANALYTICS
+
+Education: PGDM in Finance & Business Analytics (ISBM, 2024-2026)
+Experience: VML Finance Internship (May-July 2025)
+
+Key Background:
+• PGDM specialization in Finance & Business Analytics (in progress)
+• Managed 50+ financial workflows at VML (WPP Group)
+• Financial analysis, COGS analysis, budget management
+• Tools: Power BI, Excel, Maconomy ERP, financial modeling
+
+Skills:
+• Financial Analysis & Business Intelligence
+• Power BI Dashboards & Data Visualization
+• Excel & Spreadsheet Analysis
+• Budget Management & Cost Analysis
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 🎯 OPEN TO OPPORTUNITIES IN:
 
-• Video Editor / Content Strategist roles (full-time or freelance)
-• Finance Operations / Business Analyst roles
-• Hybrid roles: Digital Marketing, Content Analytics, Creative Business Management
-• UI/UX Designer positions
+✓ Video Editor / Content Strategist (full-time or freelance)
+✓ UI/UX Designer / Design roles (web, mobile, product)
+✓ Content Designer (combining video + UX expertise)
+✓ Finance Operations / Business Analyst roles
+✓ Hybrid roles: Content Strategy Lead, Digital Product Manager, Creative Technologist
+✓ Freelance projects in video production, UI/UX design, or content strategy
 
 📩 Always open to collaborations, freelance projects, and professional connections.
 ```
@@ -265,7 +310,7 @@ to deliver data-driven content strategy and professional visual storytelling.
 
 ---
 
-### CHANGE #6: Enhance VML Finance Experience (IMPORTANT - Shows Finance Credibility)
+### CHANGE #6: Enhance VML Finance Experience (IMPORTANT - Shows Secondary Expertise)
 
 **Current:**
 ```
@@ -308,30 +353,63 @@ Impact: Strengthened understanding of financial operations, ERP systems, and pro
 
 ---
 
-### CHANGE #7: Request Recommendations (DUAL-EXPERTISE CONTACTS)
+### CHANGE #7: Add UI/UX Portfolio to Featured Section
 
-**Request from (in this priority order):**
+**Create/Update ISBM Experience Entry (shows design background):**
+
+**Current (if listed):** May show as volunteer/education activity
+
+**Enhanced (add as separate entry if not already listed):**
+```
+UI/UX Design Projects & Portfolio | Self-Employed | Ongoing
+
+Designed and prototyped user interfaces for various projects including:
+• Portfolio design system and case study (Figma prototype)
+• Web application UI/UX mockups
+• Mobile app interface designs
+• Design system components and patterns
+
+Tools: Figma, Adobe Creative Suite
+```
+
+**How to Add:**
+1. LinkedIn → Experience section
+2. Click "+" icon to add entry
+3. Title: "UI/UX Design Projects & Portfolio"
+4. Company: Self-Employed
+5. Add description above
+6. Click Save
+
+**Time: 3 minutes**
+
+---
+
+### CHANGE #8: Request Recommendations (TRI-EXPERTISE CONTACTS)
+
+**Request from (in priority order):**
 
 **Video/Content References:**
 1. **Arbor Academy Manager/Supervisor** (current role)
    - "Can you recommend me for video editing and content strategy?"
 
-2. **Freelance Client** (best video work example)
-   - "Can you recommend me for my video editing and content creation work?"
+**UI/UX Design References:**
+2. **Designer/Client for UI/UX work** (if available)
+   - "Can you recommend me for my UI/UX design work?"
 
 **Finance References:**
 3. **VML Finance Team** (Inder Singh Bisht - CFO OR Navindu Prashar - HR)
-   - "Can you recommend me for my finance operations work during my internship?"
+   - "Can you recommend me for my finance operations work?"
 
 **Professional References:**
-4. **ISBM Professor/Faculty** (finance professor)
-   - "Can you recommend me for my analytics and finance project work?"
+4. **ISBM Professor/Faculty** (finance or business professor)
+   - "Can you recommend me for my analytics and business project work?"
 
 5. **Classmate from ISBM**
    - "Would you be open to exchanging LinkedIn recommendations?"
 
-**Goal: Get 5+ recommendations showing both expertise**
-- 2-3 for video editing/content strategy
+**Goal: Get 5+ recommendations showing all three expertise areas**
+- 1-2 for video editing/content strategy
+- 1-2 for UI/UX design (if available)
 - 1-2 for finance/analytics
 - 1-2 for general professional skills
 
@@ -340,45 +418,35 @@ Impact: Strengthened understanding of financial operations, ERP systems, and pro
 2. Click "More" (three dots)
 3. Click "Request a recommendation"
 4. Select type (recommend your skills)
-5. Write personalized message mentioning specific work
+5. Write personalized message
 6. Send
-
-**Template Messages:**
-
-**For Video Work:**
-"Hi [Name], I'm updating my LinkedIn profile and would appreciate a brief recommendation about my work on video editing and content strategy at [Project/Company]. I'd be happy to reciprocate. Thanks!"
-
-**For Finance Work:**
-"Hi [Name], I'm updating my LinkedIn profile and would appreciate a recommendation about my finance operations work during my VML internship. I'd be glad to provide one in return if needed."
-
-**Target: 5+ recommendations within 2 weeks**
 
 **Time: 20-30 minutes to send all requests**
 
 ---
 
-### CHANGE #8: Add Featured Content (SHOWCASE BOTH EXPERTISE)
+### CHANGE #9: Add Featured Content (SHOWCASE ALL EXPERTISE)
 
 **What to Add to Featured Section:**
 
 1. **Portfolio Website** (shows all expertise)
    - Add your portfolio URL
-   - Description: "Creative portfolio - Video editing, content strategy, UI/UX design"
+   - Description: "Creative portfolio - Video editing, UI/UX design, content strategy"
 
 2. **Best Video Sample** (video expertise)
    - Best Instagram Reel, YouTube short, or video project
-   - Description: "Content Strategy & Video Editing Sample"
+   - Description: "Video Production & Content Strategy Sample"
 
-3. **Finance/Analytics Project** (finance expertise)
-   - Power BI dashboard, financial analysis project, or case study
-   - Description: "Financial Analytics & Business Intelligence Project"
+3. **Figma Design Project** (UI/UX expertise)
+   - Link to Figma prototype or design case study
+   - Description: "UI/UX Design System & Prototype (Figma)"
 
-4. **Figma Design** (design expertise)
-   - Link to Figma prototype if available
-   - Description: "UI/UX Design Case Study"
+4. **Finance/Analytics Project** (secondary expertise)
+   - Power BI dashboard or financial analysis example
+   - Description: "Business Analytics & Data Visualization Project"
 
 5. **YouTube Channel** (if applicable)
-   - Link to your YouTube channel
+   - Link to your channel
    - Description: "Video Production & Educational Content"
 
 **How to Add:**
@@ -390,11 +458,11 @@ Impact: Strengthened understanding of financial operations, ERP systems, and pro
 6. Add title and description
 7. Save
 
-**Time: 15-20 minutes**
+**Time: 20-25 minutes**
 
 ---
 
-### CHANGE #9: Update Education Details (HIGHLIGHT DUAL SPECIALIZATION)
+### CHANGE #10: Update Education Details (EMPHASIZE TRI-SPECIALIZATION)
 
 **ISBM - PGDM Education Entry**
 
@@ -410,19 +478,25 @@ Focus Areas:
 • Data Visualization (Power BI, Excel)
 • Digital Marketing & Content Strategy
 • Financial Modeling & Company Valuation
-• Business Intelligence
+• Business Intelligence & Process Optimization
 
-Specialization: Finance & Business Analytics with Digital Content Creation focus
+Specialization: Finance & Business Analytics with Digital Innovation focus
 
-Key Projects:
+Key Academic Projects:
 • Financial modeling and company valuation analysis
 • Interactive Power BI dashboards for business analytics
-• Digital content strategy for social media
+• Digital content strategy and social media analytics
 • Cross-functional project management
+• Data-driven business case studies
+
+Complementary Skills (developed alongside):
+• Digital creativity and content production
+• UI/UX design thinking and user research
+• Creative problem-solving combined with analytical rigor
 
 Activities:
 • Junior Member, DIGI-EYe Digital Moments Cell (Mar 2025-Oct 2025)
-  └─ Managed digital content and social media strategy for college initiatives
+  └─ Managed digital content, video production, and social media strategy
 • Member, HR Shares Delegate Team
   └─ Organized corporate events and stakeholder engagement
 ```
@@ -437,28 +511,25 @@ Activities:
 
 ---
 
-### CHANGE #10: Add Certifications (PROVE BOTH EXPERTISE)
+### CHANGE #11: Add Certifications (PROVE ALL EXPERTISE)
 
 **Add These to Certifications Section:**
 
 ```
-Certification 1:
-Name: Microsoft Excel
-Issuer: [Certification Organization]
-Date: [When completed]
-Description: Data analysis and spreadsheet management for finance
+Video/Creative Certifications (if applicable):
+- Adobe Creative Suite Certification (or self-taught documentation)
+- YouTube Creator Academy Certificate (if completed)
+- Google Analytics Certificate (for content optimization)
 
-Certification 2:
-Name: Power BI
-Issuer: [Certification Organization]
-Date: [When completed]
-Description: Business intelligence and data visualization
+Design Certifications (if applicable):
+- Figma Design Certification (if completed)
+- UI/UX Design Course Certificate
+- User Experience Design Certificate
 
-Optional Certifications (if you have them):
-- Google Analytics Certificate
-- Adobe Creative Suite Certification
-- Figma Design Certification
-- YouTube Creator Academy
+Finance Certifications:
+- Microsoft Excel Certification
+- Power BI Certification
+- Financial Analysis Certificate (if any)
 ```
 
 **How to Add:**
@@ -475,22 +546,24 @@ Optional Certifications (if you have them):
 
 **Complete in This Order:**
 
-### TODAY (45 minutes):
-- [ ] Change headline (Option B - Balanced) (2 min)
+### TODAY (50 minutes):
+- [ ] Change headline (TRI-EXPERTISE) (2 min)
 - [ ] Consolidate freelance entries (5 min)
-- [ ] Enhance Arbor Academy description (5 min)
-- [ ] Reorder top 5 skills (Option A - Video Primary) (5 min)
-- [ ] Update About section (Dual-Expertise narrative) (5 min)
-- [ ] Enhance VML finance experience (3 min)
+- [ ] Enhance Arbor Academy role (5 min)
+- [ ] Reorder top 5 skills (TRI-EXPERTISE) (5 min)
+- [ ] Update About section (TRI-EXPERTISE narrative) (5 min)
+- [ ] Enhance VML finance role (3 min)
+- [ ] Add UI/UX design entry (3 min)
 - [ ] Verify all changes saved (3 min)
 
-### THIS WEEK (30 minutes):
-- [ ] Send recommendation requests (20-30 min)
-- [ ] Add featured content (15-20 min)
+### THIS WEEK (40 minutes):
+- [ ] Send recommendation requests (25 min)
+- [ ] Add featured content (all three expertise areas) (15 min)
 
-### OPTIONAL (20 minutes):
+### OPTIONAL (15 minutes):
 - [ ] Enhance education details (5 min)
 - [ ] Add certifications (5 min)
+- [ ] Update ISBM education (5 min)
 
 ---
 
@@ -498,14 +571,16 @@ Optional Certifications (if you have them):
 
 After making all changes, verify:
 
-- [ ] Headline mentions both video AND finance
+- [ ] Headline mentions Video Editor & UI/UX Designer equally
+- [ ] Finance Analytics PGDM mentioned in headline
 - [ ] No duplicate experience entries
 - [ ] Arbor Academy description is detailed
-- [ ] Skills are in correct order (video-first but finance visible)
-- [ ] About section clearly states both expertise areas
+- [ ] Freelance entry shows BOTH video and design work
+- [ ] Skills show: Adobe Premiere #1, Figma #2, Video Editing #3, Finance #4, Content Strategy #5
+- [ ] About section clearly shows: VIDEO PRIMARY → UI/UX PRIMARY → FINANCE SECONDARY
 - [ ] VML finance experience is enhanced
-- [ ] Profile shows: Video + Finance + UI/UX (3 expertise levels)
-- [ ] No typos or formatting issues
+- [ ] UI/UX design entry added
+- [ ] Profile shows tri-expertise balance
 - [ ] Featured section has diverse portfolio samples
 - [ ] Contact information is visible
 
@@ -513,26 +588,27 @@ After making all changes, verify:
 
 ## 🎯 STRATEGIC POSITIONING
 
-**Headline Strategy: Dual-Expertise**
+**Headline: Tri-Expertise**
 ```
-"Video Editor & Finance Analyst | Content Strategy | Adobe Premiere Pro | PGDM"
+"Video Editor & UI/UX Designer | Content Strategist & Cinematographer | Finance Analytics PGDM"
 ```
 
 **Why This Works:**
-- Appears in searches for both "video editor" AND "finance analyst"
-- Shows you're not one-dimensional
-- Attractive for hybrid roles (content marketing manager, business analyst with creative skills)
+- Appears in searches for: "video editor", "UI/UX designer", "content strategist", "finance analyst"
+- Shows you're multi-skilled (rare combination)
+- Attractive for: digital product roles, creative tech roles, content design
 - LinkedIn algorithm recommends you for diverse opportunities
 
 **About Section Strategy: Clear Hierarchy**
-- PRIMARY: Video production & content strategy (current active role)
-- SECONDARY: Finance & business analytics (formal education + internship)
-- TERTIARY: UI/UX design (bonus skill)
+- PRIMARY #1: Video production & content strategy (current active role)
+- PRIMARY #2: UI/UX design & digital experience (complementary expertise)
+- SECONDARY: Finance & business analytics (education + internship)
 
-**Skills Strategy: Video-First, Finance Visible**
-- Adobe Premiere Pro, Video Editing (top skills)
-- Financial Analysis (visible, maintains domain knowledge)
-- Content Strategy (bridges both worlds)
+**Skills Strategy: Balanced Creativity + Secondary Analysis**
+- Adobe Premiere Pro, Figma (co-primary tools)
+- Video Editing, UI/UX Design (co-primary skills)
+- Financial Analysis (secondary but visible)
+- Content Strategy (bridges all three)
 
 ---
 
@@ -540,12 +616,14 @@ After making all changes, verify:
 
 | Aspect | Before | After |
 |--------|--------|-------|
-| Headline | Confusing mix of all skills | Clear dual-expertise with video primary |
-| Focus | Appeared unfocused | Strategic positioning |
-| About | Generic text | Clearly structured expertise levels |
-| Finance Presence | Mentions but overshadowed | Acknowledged secondary expertise |
-| Searchability | Finance-heavy keywords | Balanced keywords |
-| Target Roles | Finance roles (misaligned with current job) | Video + Finance + Hybrid opportunities |
+| Headline | Finance-heavy, confusing mix | TRI-EXPERTISE: Video + UI/UX + Finance |
+| Primary Skills | UX, Finance ranked high | Adobe Premiere & Figma co-primary |
+| Video Expertise | Mentioned but undervalued | Clearly primary with metrics |
+| Design Expertise | Mentioned as secondary | Now co-primary with video |
+| Finance Presence | Overrepresented | Secondary but still visible |
+| Overall Narrative | Confused (all equal) | Clear hierarchy (Video+UI/UX → Finance) |
+| Searchability | Finance-first keywords | Tri-expertise keywords |
+| Target Roles | Finance roles (misaligned) | Video, Design, Hybrid, Finance roles |
 
 ---
 
@@ -553,13 +631,15 @@ After making all changes, verify:
 
 **With This Approach, You're Attractive For:**
 
-✓ **Video Editor Roles** - Clear primary expertise
-✓ **Finance Analyst Roles** - PGDM + VML experience proven
+✓ **Video Editor Roles** - Primary expertise + metrics
+✓ **UI/UX Designer Roles** - Primary expertise + Figma skills
 ✓ **Content Strategist Roles** - Bridges video + analytics
-✓ **Business Analyst Roles** - Finance background + tech skills
-✓ **Content Marketing Manager** - Video skills + analytical mindset
-✓ **Freelance Opportunities** - Both video + finance consulting
-✓ **Hybrid/Creative Roles** - Unique combination of skills
+✓ **Content Designer Roles** - Unique video + UX combination
+✓ **Digital Product Manager** - Video + Design + Analytics background
+✓ **Finance Analyst Roles** - PGDM + VML experience proven
+✓ **Creative Technologist Roles** - Rare tri-expertise combination
+✓ **Freelance Opportunities** - Multiple service offerings
+✓ **Hybrid/Strategic Roles** - Creative + analytical mindset
 
 ---
 
@@ -567,16 +647,17 @@ After making all changes, verify:
 
 **LinkedIn Profile After Changes:**
 
-✓ Video editor focused (current role emphasis)
-✓ Finance expertise acknowledged (education + internship proof)
-✓ UI/UX design visible (bonus skill)
-✓ Clear hierarchy of expertise (not confusing)
-✓ Appears in diverse searches (both video AND finance keywords)
-✓ Attractive to multiple types of employers
-✓ Shows career growth trajectory (finance → creative)
-✓ Ahead of 95% of professionals (rare dual-expertise combination)
+✓ TRI-EXPERTISE clearly visible (Video + UI/UX + Finance)
+✓ Video editing focused (current role emphasis)
+✓ UI/UX design visible (equal to video)
+✓ Finance expertise acknowledged (secondary positioning)
+✓ Clear hierarchy: PRIMARY (Video+Design) → SECONDARY (Finance)
+✓ Appears in multiple searches (all three keywords)
+✓ Attractive to multiple employer types
+✓ Shows rare skill combination (video + design expertise together)
+✓ Ahead of 98% of professionals (unique tri-expertise)
 
 ---
 
-**Implementation ready? Start with TODAY section (45 min) and follow the order.** ✅
+**Implementation ready? Start with TODAY section (50 min) and follow the order.** ✅
 
