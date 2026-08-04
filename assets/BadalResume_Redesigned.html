@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Badal Agarwal - Resume</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            line-height: 1.4;
+            color: #333;
+            background: #f5f5f5;
+            padding: 20px;
+        }
+
+        .resume-container {
+            max-width: 8.5in;
+            height: 11in;
+            background: white;
+            margin: 0 auto 20px;
+            padding: 0.5in;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        /* Header */
+        .header {
+            text-align: center;
+            margin-bottom: 8px;
+            padding-bottom: 5px;
+            border-bottom: 2px solid #1e3a8a;
+        }
+
+        .name {
+            font-size: 36px;
+            font-weight: bold;
+            color: #1e3a8a;
+            margin-bottom: 2px;
+        }
+
+        .title {
+            font-size: 18px;
+            color: #555;
+            margin-bottom: 4px;
+            letter-spacing: 0.5px;
+            font-weight: 600;
+        }
+
+        .contact-info {
+            font-size: 12px;
+            color: #666;
+            line-height: 1.4;
+        }
+
+        .contact-info a {
+            color: #1e3a8a;
+            text-decoration: none;
+        }
+
+        /* Section Headers */
+        .section-header {
+            font-size: 13px;
+            font-weight: bold;
+            color: #1e3a8a;
+            text-transform: uppercase;
+            margin-top: 7px;
+            margin-bottom: 3px;
+            padding-bottom: 2px;
+            border-bottom: 1px solid #1e3a8a;
+            letter-spacing: 0.5px;
+        }
+
+        /* Professional Summary */
+        .summary {
+            font-size: 12px;
+            line-height: 1.36;
+            margin-bottom: 4px;
+            text-align: justify;
+        }
+
+        /* Experience */
+        .job {
+            margin-bottom: 3px;
+        }
+
+        .job-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 1px;
+        }
+
+        .job-title {
+            font-size: 12.5px;
+            font-weight: bold;
+            color: #000;
+        }
+
+        .job-date {
+            font-size: 11px;
+            color: #666;
+            font-style: italic;
+        }
+
+        .job-bullets {
+            margin-left: 12px;
+            font-size: 11.5px;
+            line-height: 1.33;
+        }
+
+        .job-bullets li {
+            list-style: none;
+            margin-bottom: 0.5px;
+            position: relative;
+            padding-left: 10px;
+        }
+
+        .job-bullets li:before {
+            content: "•";
+            position: absolute;
+            left: 0;
+        }
+
+        /* Skills - Two Column */
+        .skills-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 7px;
+            font-size: 11.5px;
+            margin-bottom: 3px;
+        }
+
+        .skill-category {
+            margin-bottom: 3px;
+        }
+
+        .skill-category-title {
+            font-weight: bold;
+            font-size: 12px;
+            color: #000;
+            margin-bottom: 1px;
+        }
+
+        .skill-category ul {
+            margin-left: 12px;
+            line-height: 1.4;
+        }
+
+        .skill-category li {
+            list-style: none;
+            margin-bottom: 0.5px;
+            position: relative;
+            padding-left: 8px;
+        }
+
+        .skill-category li:before {
+            content: "•";
+            position: absolute;
+            left: 0;
+        }
+
+        /* Education */
+        .education-item {
+            margin-bottom: 1px;
+            font-size: 11.5px;
+        }
+
+        .education-school {
+            font-weight: bold;
+            color: #000;
+        }
+
+        .education-degree {
+            font-size: 11px;
+            color: #555;
+            margin-left: 0;
+        }
+
+        /* Certificates */
+        .certificates {
+            font-size: 11.5px;
+            margin-bottom: 2px;
+        }
+
+        .cert-item {
+            display: inline-block;
+            margin-right: 12px;
+        }
+
+        /* Languages */
+        .languages {
+            font-size: 11.5px;
+            line-height: 1.28;
+        }
+
+        .lang-item {
+            display: inline-block;
+            margin-right: 15px;
+        }
+
+        /* Page 2 Specific */
+        .resume-container.page2 {
+            margin-top: 20px;
+        }
+
+        /* Achievement boxes */
+        .achievements-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 7px;
+            font-size: 11px;
+            margin-bottom: 4px;
+        }
+
+        .achievement-item {
+            line-height: 1.22;
+        }
+
+        .achievement-item strong {
+            display: block;
+            color: #1e3a8a;
+            margin-bottom: 0.5px;
+            font-size: 11.5px;
+        }
+
+        /* Project highlights */
+        .project {
+            margin-bottom: 2px;
+        }
+
+        .project-title {
+            font-weight: bold;
+            font-size: 12px;
+            color: #000;
+            margin-bottom: 0.5px;
+        }
+
+        .project-bullets {
+            margin-left: 12px;
+            font-size: 11px;
+            line-height: 1.26;
+        }
+
+        .project-bullets li {
+            list-style: none;
+            margin-bottom: 0px;
+            position: relative;
+            padding-left: 10px;
+        }
+
+        .project-bullets li:before {
+            content: "•";
+            position: absolute;
+            left: 0;
+        }
+
+        /* Competencies */
+        .competencies {
+            font-size: 11px;
+            line-height: 1.28;
+        }
+
+        .competency-line {
+            margin-bottom: 2px;
+        }
+
+        /* Print styles */
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+            .resume-container {
+                box-shadow: none;
+                margin-bottom: 0;
+                page-break-after: always;
+            }
+            .resume-container.page2 {
+                margin-top: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<!-- PAGE 1 -->
+<div class="resume-container">
+    <!-- Header -->
+    <div class="header">
+        <div class="name">BADAL AGARWAL</div>
+        <div class="title">Content Strategist | Video Editor | Cinematographer | UI/UX Designer</div>
+        <div class="contact-info">
+            +91 8529698371 | badalagrawal99@gmail.com | <a href="#">LinkedIn Profile</a> | badalvisuals.netlify.app
+        </div>
+    </div>
+
+    <!-- Professional Summary -->
+    <div class="section-header">Professional Summary</div>
+    <div class="summary">
+        Creative professional with 4+ years of expertise in content strategy, video production, and UI/UX design. Proven track record of creating high-impact visual content across YouTube, Instagram, podcasts, and brand campaigns. Skilled in end-to-end content creation—from scriptwriting and cinematography to editing and post-production. Currently leading content initiatives at Arbor Academy while maintaining active freelance practice. Passionate about crafting story-driven experiences and intuitive digital interfaces that drive engagement and results.
+    </div>
+
+    <!-- Professional Experience -->
+    <div class="section-header">Professional Experience</div>
+
+    <div class="job">
+        <div class="job-header">
+            <div class="job-title">Arbor Academy – Video Editor & Content Creator</div>
+            <div class="job-date">Apr 2026 – Present</div>
+        </div>
+        <ul class="job-bullets">
+            <li>Produce and edit 50+ educational videos, YouTube content, Instagram Reels, and promotional materials</li>
+            <li>Lead content strategy collaborations with cross-functional teams on scripting, planning, and shoot execution</li>
+            <li>Execute end-to-end video production including cinematography, lighting, audio design, and color grading</li>
+            <li>Optimize content for multiple platforms (YouTube, Instagram, TikTok) with platform-specific formatting</li>
+            <li>Manage concurrent projects while maintaining quality standards and delivery deadlines</li>
+        </ul>
+    </div>
+
+    <div class="job">
+        <div class="job-header">
+            <div class="job-title">Freelance Video Editor & Cinematographer</div>
+            <div class="job-date">2022 – Present</div>
+        </div>
+        <ul class="job-bullets">
+            <li>Completed 25+ video production projects for brands, real estate, hospitality, and corporate clients</li>
+            <li>Directed shoots and handled complete post-production for promotional videos, podcasts, and advertisements</li>
+            <li>Created short-form viral content focused on storytelling, audience retention, and engagement metrics</li>
+            <li>Built strong client relationships through consistent quality delivery and professional communication</li>
+        </ul>
+    </div>
+
+    <div class="job">
+        <div class="job-header">
+            <div class="job-title">VML (WPP) – Finance Intern</div>
+            <div class="job-date">May 2025 – Jul 2025</div>
+        </div>
+        <ul class="job-bullets">
+            <li>Supported financial analysis and reporting for 50+ client projects using Maconomy ERP system</li>
+            <li>Managed documentation, reconciliation, and cross-functional collaboration to resolve discrepancies</li>
+            <li>Contributed to process improvements in reporting accuracy and operational workflows</li>
+        </ul>
+    </div>
+
+    <!-- Technical Skills -->
+    <div class="section-header">Technical Skills</div>
+    <div class="skills-container">
+        <div>
+            <div class="skill-category">
+                <div class="skill-category-title">Video & Post-Production</div>
+                <ul>
+                    <li>Adobe Premiere Pro (95%)</li>
+                    <li>After Effects (85%)</li>
+                    <li>CapCut Pro (92%)</li>
+                    <li>Color Grading & Correction</li>
+                    <li>Motion Graphics</li>
+                    <li>Sound Design & Audio Editing</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <div class="skill-category-title">UI/UX Design</div>
+                <ul>
+                    <li>Figma (88%)</li>
+                    <li>Wireframing & Prototyping</li>
+                    <li>User Research</li>
+                    <li>Design Systems</li>
+                    <li>User-Centered Design</li>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <div class="skill-category">
+                <div class="skill-category-title">Content Creation</div>
+                <ul>
+                    <li>Content Strategy & Planning</li>
+                    <li>Cinematography</li>
+                    <li>Script Writing</li>
+                    <li>YouTube & Social Media</li>
+                    <li>Podcast Production</li>
+                    <li>Visual Storytelling</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <div class="skill-category-title">Equipment & Tools</div>
+                <ul>
+                    <li>Sony A6700, Fujifilm XT-20</li>
+                    <li>Canon 500D, Nikon D5000</li>
+                    <li>Microsoft Excel & Power BI</li>
+                    <li>Maconomy ERP</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Education -->
+    <div class="section-header">Education</div>
+    <div class="education-item">
+        <div class="education-school">International School of Business & Media (ISBM)</div>
+        <div class="education-degree">PGDM – Finance & Business Analytics (2024 – 2026)</div>
+    </div>
+    <div class="education-item">
+        <div class="education-school">Mohanlal Sukhadia University (MLSU)</div>
+        <div class="education-degree">Bachelor of Commerce (B.Com.) (2021 – 2024)</div>
+    </div>
+
+    <!-- Certifications -->
+    <div class="section-header">Certifications & Languages</div>
+    <div class="certificates">
+        <div class="cert-item">✓ Advanced Microsoft Excel</div>
+        <div class="cert-item">✓ Microsoft Power BI</div>
+    </div>
+    <div class="languages" style="margin-top: 4px;">
+        <div class="lang-item">English – Fluent</div>
+        <div class="lang-item">Hindi – Native</div>
+        <div class="lang-item">Gujarati – Fluent</div>
+        <div class="lang-item">Marathi – Beginner</div>
+    </div>
+</div>
+
+<!-- PAGE 2 -->
+<div class="resume-container page2">
+    <!-- Key Achievements -->
+    <div class="section-header">Key Achievements</div>
+    <div class="achievements-container">
+        <div class="achievement-item">
+            <strong>50+ Videos Produced</strong>
+            Reaching 100K+ combined views across YouTube, Instagram, and TikTok platforms
+        </div>
+        <div class="achievement-item">
+            <strong>15+ UI/UX Designs</strong>
+            Prototypes and design systems created using Figma for clients and projects
+        </div>
+        <div class="achievement-item">
+            <strong>25+ Projects Completed</strong>
+            Successfully managed freelance projects across diverse industries
+        </div>
+        <div class="achievement-item">
+            <strong>Tri-Discipline Expert</strong>
+            Video Production, Content Strategy & UI/UX Design specialization
+        </div>
+    </div>
+
+    <!-- Project Highlights -->
+    <div class="section-header">Project Highlights</div>
+
+    <div class="project">
+        <div class="project-title">AI-Generated Content & Cinematic Videos</div>
+        <ul class="project-bullets">
+            <li>Produced high-quality cinematic and AI-generated content series including psychological thriller, game cinematics, and visual storytelling</li>
+            <li>Created sophisticated motion graphics and visual effects with advanced color grading and post-production techniques</li>
+            <li>Demonstrated expertise in emerging AI video production tools and creative applications</li>
+        </ul>
+    </div>
+
+    <div class="project">
+        <div class="project-title">Brand & Commercial Video Production – Real Estate, Fitness & Hospitality</div>
+        <ul class="project-bullets">
+            <li>Directed and edited commercial videos for real estate, fitness brands (CloudXFit), and hospitality sectors</li>
+            <li>Executed end-to-end production from cinematography to post-production with professional color grading and sound design</li>
+            <li>Delivered brand-focused content optimized for marketing and promotional campaigns</li>
+        </ul>
+    </div>
+
+    <div class="project">
+        <div class="project-title">Social Media & Short-Form Content</div>
+        <ul class="project-bullets">
+            <li>Created talking head videos and social media content series optimized for Instagram Reels, TikTok, and YouTube Shorts</li>
+            <li>Produced trending and promotional content with focus on audience engagement and platform algorithms</li>
+            <li>Managed consistent posting schedules with data-driven content strategy and performance optimization</li>
+        </ul>
+    </div>
+
+    <div class="project">
+        <div class="project-title">Podcast & Multi-Format Content Production</div>
+        <ul class="project-bullets">
+            <li>Edited and produced podcast content with professional audio design and visual accompaniment</li>
+            <li>Created vlogs and long-form educational content with narrative editing and storytelling techniques</li>
+            <li>Managed audio levels, color grading, and post-production workflows for diverse content formats</li>
+        </ul>
+    </div>
+
+    <!-- Core Competencies -->
+    <div class="section-header">Core Competencies</div>
+    <div class="competencies">
+        <div class="competency-line">Content Strategy & Creative Direction | End-to-End Video Production | Cinematography & Videography</div>
+        <div class="competency-line">Post-Production & Color Grading | Motion Graphics & Animation | Audio Design & Editing</div>
+        <div class="competency-line">UI/UX Design & Prototyping | Design Systems | User Research & Testing</div>
+        <div class="competency-line">Platform Optimization (YouTube, Instagram, TikTok) | Script Writing & Storytelling</div>
+        <div class="competency-line">Client Communication & Project Management | Creative Problem-Solving</div>
+    </div>
+
+    <!-- Additional Information -->
+    <div class="section-header">Additional Information</div>
+    <div class="languages" style="font-size: 9px;">
+        <div>Portfolio: badalvisuals.netlify.app | LinkedIn: linkedin.com/in/badal-agarwal-88731a245</div>
+        <div style="margin-top: 3px;">Instagram: @mkvisualls, @cloudxfit, @clipwcloud | Based in Pune, Maharashtra, India</div>
+    </div>
+</div>
+
+</body>
+</html>
