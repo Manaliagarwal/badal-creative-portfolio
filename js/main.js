@@ -110,8 +110,8 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 // SCROLL ANIMATIONS (Intersection Observer)
 // ===================================
 const observerOptions = {
-  threshold: 0.1,
-  rootMargin: '0px 0px -50px 0px'
+  threshold: [0, 0.1, 0.5],
+  rootMargin: '0px 0px -100px 0px'
 };
 
 const observer = new IntersectionObserver((entries) => {
@@ -306,14 +306,36 @@ function showSuccessMessage() {
 // ===================================
 // PARALLAX EFFECT ON SCROLL
 // ===================================
-window.addEventListener('scroll', () => {
+window.addEventListener('scroll', debounce(() => {
   const parallaxElements = document.querySelectorAll('.parallax');
   parallaxElements.forEach(el => {
     const speed = el.dataset.speed || 0.5;
     const yPos = -(window.scrollY * speed);
     el.style.transform = `translateY(${yPos}px)`;
   });
-});
+}, 10));
+
+// ===================================
+// ENHANCED SCROLL-LINKED ANIMATIONS
+// ===================================
+function initEnhancedScrollAnimations() {
+  const elementsToAnimate = document.querySelectorAll('[data-scroll-animate]');
+
+  elementsToAnimate.forEach(el => {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const animationType = entry.target.dataset.scrollAnimate;
+          entry.target.classList.add(`animate-${animationType}`);
+        }
+      });
+    }, { threshold: 0.1 });
+
+    observer.observe(el);
+  });
+}
+
+document.addEventListener('DOMContentLoaded', initEnhancedScrollAnimations);
 
 // ===================================
 // TYPING ANIMATION FOR HERO TEXT
@@ -366,13 +388,17 @@ if ('IntersectionObserver' in window) {
 }
 
 // ===================================
-// CARD TILT EFFECT (3D)
+// CARD TILT EFFECT (3D) - Enhanced
 // ===================================
 function addTiltEffect() {
   const cards = document.querySelectorAll('.card, .project-card');
 
   cards.forEach(card => {
+    let isAnimating = false;
+
     card.addEventListener('mousemove', (e) => {
+      if (isAnimating) return;
+
       const rect = card.getBoundingClientRect();
       const x = e.clientX - rect.left;
       const y = e.clientY - rect.top;
@@ -380,14 +406,21 @@ function addTiltEffect() {
       const centerX = rect.width / 2;
       const centerY = rect.height / 2;
 
-      const rotateX = (y - centerY) / 10;
-      const rotateY = (centerX - x) / 10;
+      const rotateX = (y - centerY) / 15;
+      const rotateY = (centerX - x) / 15;
 
-      card.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) translateY(-10px)`;
+      card.style.transform = `perspective(1200px) rotateX(${rotateX}deg) rotateY(${rotateY}deg)`;
     });
 
     card.addEventListener('mouseleave', () => {
+      isAnimating = true;
+      card.style.transition = 'transform 0.6s cubic-bezier(0.33, 1, 0.68, 1)';
       card.style.transform = '';
+
+      setTimeout(() => {
+        card.style.transition = '';
+        isAnimating = false;
+      }, 600);
     });
   });
 }
