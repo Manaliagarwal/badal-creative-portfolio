@@ -47,3 +47,6 @@ yarn.lock
 # Optional: Exclude large files
 # assets/videos/*.mp4
 # assets/images/originals/
+
+# Local portfolio backups (nested repo, not tracked)
+portfolio-backup-*/
